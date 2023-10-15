@@ -1,0 +1,109 @@
+/* Main container */
+main {
+    display: flex;
+   width: 100%;
+  }
+  
+  /* Card styling */
+  .card {
+    border: none;
+    border-radius: 0;
+    width: 40rem;
+    height: 28rem;
+
+  }
+
+  .card-header {
+    color: #007bff;
+    border: none;
+    border-radius: 0;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .card-body {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+  }
+
+  .card-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    border: none;
+  }
+  .card-footer button{
+border: 1px solid #8299AA ;
+  }
+  /* Form styling */
+  .form-control {
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 7px;
+    margin: 0.5rem 1rem 0rem 0rem;
+    width: 21rem;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+
+  }
+
+.create:hover{
+  background-color: #8299AA;
+
+}  
+  .input-group-text {
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    border-radius: 0;
+    display: flex;
+  }
+  
+  /* Label styling */
+  label {
+    font-weight: 400;
+    display: flex;
+    
+  }
+
+
+  /* Add margin and spacing */
+  .m-4 {
+    margin: 1.5rem;
+  }
+  
+  /* Clear float */
+  .clear {
+    clear: both;
+  }
+  
+  /* Responsive spacing */
+  @media (max-width: 576px) {
+    .m-4 {
+      margin: 0.5rem;
+    }
+    .float-end {
+      float: none;
+    }
+  }
+  
+  /* Adjust spacing between buttons */
+  .btn {
+    margin: 0.25rem;
+    padding:15px ;
+    border-radius: 5px;
+    width: 80%;
+  }
+  
+  /* Optional styles for the text with asterisk (*) */
+  p {
+    font-weight: bold;
+    color: red;
+    margin: 1px 2px 0px 10px;
+  }
+.livelearn{
+    margin-right: 50%;
+}
+.col{
+    display: flex;
+}

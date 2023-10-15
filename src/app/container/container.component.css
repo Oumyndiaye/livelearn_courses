@@ -1,0 +1,117 @@
+/* Stylisation de la carte à gauche */
+
+  
+  /* Stylisation de la carte en haut */
+  .card-top {
+    background-color: #043356;
+    border: none;
+    margin-top: 15px; /* Espacement en bas */
+    height: 4rem;
+  }
+
+  /* styles.css */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    border: none;
+  }
+  
+  .col {
+    flex: 1;
+    border: none;
+    height: 50em;
+    
+  }
+  .right{
+    display: flex;
+    flex-direction: column;
+    height: 39rem;
+    width: 100%;
+    
+  }
+
+.form{
+    height: 30rem;
+    display: flex;
+    
+}
+.container{
+  border: none;
+}
+.entete{
+  height: 3rem;
+  margin: 3rem 2rem 0rem 2rem;
+  display: flex;
+justify-content: space-between;
+}
+
+
+.footer-container{
+    display: flex;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 16px;
+    background: linear-gradient(to left, #419E97, #083A5B);
+    width: 100%;
+
+}
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.gauche{
+  background-color: #0E4460;
+  background: linear-gradient(to right, #419E97, #0E4460);
+
+}
+.droite{
+  background-color: #FFFFFF;
+  width: 100%;
+}
+
+.button{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+button{
+    margin-left: 10px;
+    border-radius: 20px;
+    border:1px solid transparent;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    background-color: #f8f9fa;
+}
+.cercle {
+  width: 10px; /* Ajustez la largeur selon vos besoins */
+  height: 10px; /* Ajustez la hauteur selon vos besoins */
+  border-radius: 50%; /* Rend l'élément circulaire */
+  border: 1px solid #FFFFFF;
+  margin-left: 10px;
+  margin-right: 5px;
+  margin-top: 4px;
+}
+.reload{
+  display: flex;
+}
+.rectangle-arrondi {
+  width: 50px; /* Ajustez la largeur selon vos besoins */
+  height: 15px; /* Ajustez la hauteur selon vos besoins */
+  background-color: #FFFFFF; /* Couleur de fond (peut être modifiée) */
+  border-radius: 10px; /* Rayon de courbure des coins (ajustez selon vos besoins) */
+  border: 2px solid #FFFFFF; /* Bordure solide (peut être modifiée) */
+}
+
+.icon{
+    height: 35em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top:8rem
+}

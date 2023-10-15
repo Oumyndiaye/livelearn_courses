@@ -1,0 +1,28 @@
+<div class="row">
+  <div class="col" *ngFor="let courseGroup of chunkArray(courses, 1)">
+    <div class="row">
+      <div class="col-md-3" *ngFor="let course of courseGroup">
+        <div class="card">
+          <div class="bg-image hover-overlay" mdbRipple rippleColor="light">
+            <img [src]="course.pathImage" class="img-fluid" />
+          </div>
+          <div class="card-body ">
+            <h5 class="card-title mb-2" style="color: #043356;">{{course.title}}</h5>
+            <div class="ligne  mb-2">
+                <div class="d-flex">
+                    <p style="color: #043356;">By:</p>
+                    <span class="card-text " style="color: #E6E6E6;margin-left:5px"> {{course.author.name}}.</span>
+                </div>
+
+              <p><i class="fas fa-heart my-heart-icon"></i></p>
+            </div>
+            <div class="ligne" >
+              <p class="card-text" style="color: #043356;"><i class="fas fa-clock  my-custom-icon"></i>4h.</p>
+              <p style="color: green;">${{course.price}}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

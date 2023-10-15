@@ -1,0 +1,32 @@
+<div class="container">
+    <div class = "container_content droite">
+        <div class = "container_logo_and_description">
+            <div class="container_description">
+                <p class="" style="color: #000000;">Sign into Your Account </p>
+            </div>
+        </div>
+        <div class = "container_form">
+            <form (ngSubmit)="onSubmit()">
+                <div class="my_container_input_1">
+                    <label for="username" style="font-size: 20px;color:#7B7389;">Nom d'utisateur</label>
+                    <input class = "input" name="username" [(ngModel)]="username" id="username" type="text" placeholder="Enter your username " aria-label="default input example" id="cnx_user">
+                </div>
+                <div class="my_container_input_2">
+                    <label style="font-size: 20px;color:#7B7389">Password</label>
+                    <input class = "input" name="password" [(ngModel)]="password" type="password" placeholder="Entrer your password" aria-label="default input example" id="cnx_pass">
+                    
+                </div>
+                <div class="forget_password" >
+                    <H5 style="font-weight:600;color:#392C7D">Forget Password?</H5>
+                </div>
+                <div class="remember_me">
+                    <input class="checkbox" style="margin-top: 5px;color:#BADEDA" type="checkbox">
+                    <p style="margin-left: 5px;color:#A09BAA">Remember me</p>
+                </div>
+                <div class = "my_container_input_3">
+                    <button type="submit" class="btn btn-success "><p style="  font-weight: 600;">Sign In</p></button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

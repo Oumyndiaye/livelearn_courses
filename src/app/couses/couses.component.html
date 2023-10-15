@@ -1,0 +1,28 @@
+<div class="container" >
+        <!-- Carte en haut avec la classe "card-top" -->
+          <div class=" col-md-12 card-color">
+          </div>
+    
+    <div class="col-md-12" >
+        <!-- Carte en haut avec la classe "card-top" -->
+        <div class="card card-top courses" style="background-color: #E0EFF4;border:none">
+          <div class="card-header" style="background-color: #E0EFF4">
+           <span class="mb-2"><i class="fas fa-search research"></i></span> 
+            <h3 style="color: #043356;">All Course</h3>
+          </div>
+        </div>
+    </div>
+    <div class="col-md-12 mb-1 " >
+        <!-- Carte en haut avec la classe "card-top" -->
+        <div class="card card-top rounded-0" style="border: none;background-color: #E0EFF4 ">
+          <div class="card-body rounded-0" style="border: none;margin-left:2rem;border:none">
+            <button type="button" class="btn btn-primary buttonGreen" style="margin-right: 1rem;border:none;background-color:#00AA9E"  mdbRipple>  <img src="https://cdn.icon-icons.com/icons2/815/PNG/512/Windows_icon-icons.com_66262.png" style="height: 20px;margin-right:10px"/>Grid View</button>
+            <button type="button" class="btn btn-secondary" style="background-color: #F5FAFD;color:#00AA9E" mdbRipple><img src="https://cdn.icon-icons.com/icons2/643/PNG/512/windows-desktop-os-software_icon-icons.com_59262.png" style="height: 20px;margin-right:10px"/>List View</button>
+          </div>
+        </div>
+    </div>
+    
+    <div class="container" style="background-color: #E0EFF4">
+        <app-table-courses [courses]="courses"></app-table-courses>
+    </div>
+</div>

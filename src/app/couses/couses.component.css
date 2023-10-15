@@ -1,0 +1,36 @@
+.card-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0rem;
+    border:none
+}
+.courses{
+    height: 10rem;
+    border: none;
+
+}
+.container{
+    border:none
+}
+
+.research{
+    font-size: 35px; /* Taille de la police */
+    margin-bottom: 1rem;
+}
+
+.buttonGreen{
+    background-color: aquamarine;
+    color: aliceblue;
+}
+.card-color{
+    background-color: #043356;
+    height: 5rem;
+    width: 100%;
+    border: none;
+
+}
+.row{
+    border: none;
+}

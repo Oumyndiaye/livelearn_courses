@@ -1,0 +1,62 @@
+
+  /* styles.css */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0.25rem;
+    border: none;
+  }
+  
+  
+  .col {
+    flex: 1;
+    height: 7rem;
+    margin: 0rem 0rem 20rem 0rem;
+    height: 7rem;
+
+    
+  }
+  .card {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 0;
+    width: 15rem;
+    height: 7rem;
+  }
+  
+  img{
+    border-radius: 5px;
+  }
+
+  .ligne{
+    display: flex;
+    justify-content: space-between;
+  }
+  .card-body{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+  }
+.footer{
+    display: flex;
+    height: 15em;
+    border: 1px solid #ccc;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.my-custom-icon {
+    font-size: 15px; /* Taille de la police */
+    color: #043356; /* Couleur de l'icône */
+    margin-right: 3px; /* Marge à droite de l'icône */
+    /* Ajoutez d'autres styles CSS selon vos besoins */
+  }
+  .my-heart-icon {
+    font-size: 15px; /* Taille de la police */
+    margin-right: 3px; /* Marge à droite de l'icône */
+    color: #043356;
+    /* Ajoutez d'autres styles CSS selon vos besoins */
+  }
+  
+  
+
